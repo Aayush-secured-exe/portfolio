@@ -11,7 +11,7 @@ const AchievementsSection = () => {
       description: 'Recognized for exceptional mentoring and leadership in guiding junior developers and improving team productivity.'
     },
     {
-      title: 'OpenSource Contributor of the Year',
+      title: 'Open Source Contributor of the Year',
       organization: 'DevCommunity',
       description: 'Honored for significant contributions to open-source projects with over 10,000 downloads and 500+ GitHub stars.'
     },
