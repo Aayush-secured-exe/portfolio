@@ -106,7 +106,7 @@ const ExperienceSection = () => {
                   <div key={index}>
                     <div className="fade-in-up" style={{ animationDelay: `${index * 0.2}s` }}>
                       <div className="mb-4">
-                        <h3 className="text-3xl leading-[1] md:text-xl text-black mb-1">{exp.role}</h3>
+                        <h3 className="text-3xl leading-[1] md:text-2xl text-black mb-1">{exp.role}</h3>
                         <p className="text-black font-body text-sm mb-1">{exp.company}</p>
                         <p className="text-xs font-body text-gray-600 mb-3">{exp.period}</p>
                       </div>
