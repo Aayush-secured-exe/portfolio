@@ -49,7 +49,7 @@ const SkillsSection = () => {
                 className="bg-[var(--portfolio-warm-beige)] rounded-2xl card-padding lg:px-12 lg:py-14"
               >
                 <h3
-                  className="fade-in-up text-2xl text-black"
+                  className="fade-in-up text-3xl leading-[1] md:text-2xl text-black"
                   style={{ animationDelay: `${catIndex * 0.2}s` }}
                 >
                   {category.title}

@@ -66,7 +66,7 @@ const EducationSection = () => {
           <div className="grid md:grid-cols-2 gap-[5px] md:gap-5">
             {/* Education Column */}
             <div className="bg-[var(--portfolio-warm-beige)] card-padding lg:px-12 lg:py-14 rounded-2xl">
-              <h3 className="text-2xl text-black mb-8">Education</h3>
+              <h3 className="text-3xl leading-[1] md:text-2xl text-black mb-8">Education</h3>
               {education.map((edu, index) => (
                 <div
                   key={index}
@@ -91,7 +91,7 @@ const EducationSection = () => {
 
             {/* Projects Column (replaces cloned Internships) */}
             <div className="bg-[var(--portfolio-warm-beige)] card-padding lg:px-12 lg:py-14 rounded-2xl">
-              <h3 className="text-2xl text-black mb-8">Projects</h3>
+              <h3 className="text-3xl leading-[1] md:text-2xl text-black mb-8">Projects</h3>
               {projects.map((project, index) => (
                 <div
                   key={index}
@@ -118,7 +118,7 @@ const EducationSection = () => {
 
             {/* Internships Column */}
             <div className="bg-[var(--portfolio-warm-beige)] card-padding lg:px-12 lg:py-14 rounded-2xl">
-              <h3 className="text-2xl text-black mb-8">Internships</h3>
+              <h3 className="text-3xl leading-[1] md:text-2xl text-black mb-8">Internships</h3>
               {internships.map((internship, index) => (
                 <div
                   key={index}
@@ -142,7 +142,7 @@ const EducationSection = () => {
 
             {/* Certifications Column */}
             <div className="bg-[var(--portfolio-warm-beige)] card-padding lg:px-12 lg:py-14 rounded-2xl">
-              <h3 className="text-2xl text-black mb-8">Certifications</h3>
+              <h3 className="text-3xl leading-[1] md:text-2xl text-black mb-8">Certifications</h3>
               {certifications.map((cert, index) => (
                 <div
                   key={index}
